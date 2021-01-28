@@ -17,6 +17,7 @@ body{
     height: 30px;
     width: 300px;
     border-radius: 30px;
+    text-align: center;
 }
 
 .container #submitButton{
@@ -27,6 +28,7 @@ body{
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    color: white;
 }
 .filmInput #filmInput::placeholder{
     margin-left: 20px;
