@@ -1,4 +1,4 @@
-# filmlookupage
+# Film Lookup 
 Javascript film look up page 
 
 API been used is from www.omdbapi.com 
