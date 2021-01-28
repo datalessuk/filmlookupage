@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 250px;
+}
+.container #filmInput{
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.container #submitButton{
+    margin-top: 10px;
+    background-color: rgb(77, 77, 240);
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.filmInput #filmInput::placeholder{
+    margin-left: 20px;
+
+    
+}
+.result-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.result-container img{
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+.result-container #titleResult{
+    font-size: 1.5rem;
+}
+.result-container #filmdescription{
+    margin-bottom: 40px;
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: left;
+}

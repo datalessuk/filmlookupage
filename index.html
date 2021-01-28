@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>IMDB Search</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-container">
+            <h2>Search Movie</h2>
+            <br />
+            <input type="text" id="filmInput" placeholder="Enter Film Title">
+            <br/>
+            
+            <button id="submitButton">Search</button>
+        </div>
+    </div>
+    <div class="result-container">
+        <div class="result" id="poster-result"></div>
+        <div class="title-result" id="titleResult">
+            
+        </div>
+        <br />
+        <div class="description" id="filmdescription">
+
+        </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="myScript.js"></script>    
+</body>
+</html>
